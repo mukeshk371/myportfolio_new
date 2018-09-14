@@ -1,0 +1,261 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+    <link rel="icon" href="resources/img/logo.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/star-background.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/progressbar.css">
+    <script src="resources/js/javascript.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+
+        <div class="hero-text-box">
+            <h2>Hello I'm</h2>
+            <h1>MUKESH KUMAR</h1>
+            <h1 class="role">Front End Developer / UI Developer</h1>
+        </div>
+
+        <div class="row" align="center">
+            <button class="btn-get-started">Get Started</button>
+        </div>
+
+    </header>
+
+    <nav>
+        <div>
+            <ul class="main-nav" id="myTopnav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">My Works</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section-about">
+        <div class="about" align="center">
+            <button class="btn btn-header">ABOUT ME</button>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-2">
+                <img src="resources/img/pic.jpg">
+            </div>
+            <div class="col span-1-of-2">
+                <p>
+                    My name is Mukesh Kumar. Front End Developer who focuses on writing clean, elegant and efficient code. I like to analyze context and behaviours in order to create the best solutions to every project.
+                </p>
+
+                <p>
+                    I enjoy building everything from small business sites to rich interactive websites. I am also working as a freelancer. If you are seeking web presence for your business or you are an employer looking to hire, you can get in touch with me.
+                </p>
+
+                <p>
+                    "User Interface Designer with passion for designing and functional user experiences."
+                </p>
+                <div class="resume-btn" align="center">
+                    <a href="resources/mukesh_resume.pdf" target="_blank">
+                        <button class="btn-resume">RESUME</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-skills">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div class="skills" align="center">
+            <button class="btn btn-header">SKILLS</button>
+        </div>
+
+        <div class="progress-bar">
+            <ul class="bar-graph"> 
+              <li>
+                <h4>HTML</h4>
+                <div class="bar-wrap"><span class="bar-fill" style="width: 80%;">80%</span></div>
+              </li> 
+              <li>
+                <h4>CSS</h4>
+                <div class="bar-wrap"><span class="bar-fill" style="width: 80%;">80%</span></div>
+              </li> 
+              <li>
+                <h4>JavaScript</h4>
+                <div class="bar-wrap"><span class="bar-fill"  style="width: 60%;">60%</span></div>
+              </li> 
+              <li>
+                <h4>Bootstrap</h4>
+                <div class="bar-wrap"><span class="bar-fill" style="width: 60%;">60%</span></div>
+              </li> 
+            </ul>
+        </div>
+    </section>
+
+    <section class="section-myworks">
+        <div class="my-works" align="center">
+            <button class="btn btn-header">MY WORKS</button>
+        </div>
+
+        <div class="buttons" align="center">
+            <button class="navigation-btn active">ALL</button>
+            <button class="navigation-btn" onclick="activeButton(this)">HTML & CSS</button>
+            <button class="navigation-btn" onclick="activeButton(this)">RESPONSIVE</button>
+            <button class="navigation-btn" onclick="activeButton(this)">BOOTSTRAP</button>
+            <button class="navigation-btn" onclick="activeButton(this)">PROJECT</button>
+        </div>
+
+        <div class="websites">
+            <ul class="websites-showcase clearfix">
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/omnifood/." target="_blank"><img src="resources/img/1.png" alt="Omnifood"></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/sf_arts/" target="_blank"><img src="resources/img/3.png" alt="SF Arts"></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/upsc_bootstrap/" target="_blank"><img src="resources/img/2.png" alt="UPSC"></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/Essay/" target="_blank"><img src="resources/img/4.png" alt="Essay"></a>
+                    </figure>
+                </li>
+            </ul>
+
+            <ul class="websites-showcase clearfix">
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/r.k.s.school/" target="_blank"><img src="resources/img/7.png" alt="School"></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/paytm/" target="_blank"><img src="resources/img/5.png" alt="Paytm"></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/flipkart/" target="_blank"><img src="resources/img/6.png" alt="Flipkart"></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="website-photo">
+                        <a href="https://mukeshk371.github.io/facebook/" target="_blank"><img src="resources/img/8.png" alt="Flipkart"></a>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section-form" id="form">
+        <div class="my-works" align="center">
+            <button class="btn btn-header">CONTACT ME</button>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="firstname">First Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="lastname">Last Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter Last Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="mobile">Mobile</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="mobile" name="mobile" id="mobile" placeholder="Enter Mobile Number" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Messege</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <button class="btn-send">SEND MESSAGE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">My Works</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2018 Designed by Mukesh Kumar . All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -6,11 +6,13 @@ function activeButton(button) {
 	button.classList.toggle("active");
 }
 
- function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "main-nav") {
+function myFunction() {
+            var x = document.getElementById("top-nav");
+            if (x.className === "sticky") {
                 x.className += "responsive";
             } else {
-                x.className = "main-nav";
+                x.className = "sticky";
             }
         }
+
+

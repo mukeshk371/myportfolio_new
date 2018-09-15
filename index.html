@@ -24,7 +24,6 @@
 
 <body>
     <header>
-
         <div class="hero-text-box">
             <h2>Hello I'm</h2>
             <h1>MUKESH KUMAR</h1>
@@ -32,33 +31,31 @@
         </div>
 
         <div class="row" align="center">
-            <button class="btn-get-started">Get Started</button>
+        	<a href="#top-nav"><button class="basic btn-get-started">Get Started</button></a>
         </div>
 
     </header>
 
     <nav>
-        <div>
-            <ul class="main-nav" id="myTopnav">
+        <div class="sticky" id="top-nav">
+            <ul class="main-nav">
+            	<li><a href="javascript:void(0);" style="font-size:15px;" align="center" class="icon" onclick="myFunction()">&#9776;</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">My Works</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#myworks">My Works</a></li>
+                <li><a href="#form">Contact Me</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="section-about">
+    <section class="section-about" id="about-me">
         <div class="about" align="center">
-            <button class="btn btn-header">ABOUT ME</button>
+            <h5>ABOUT ME</h5>
         </div>
-
-        <div class="row">
-            <div class="col span-1-of-2">
-                <img src="resources/img/pic.jpg">
-            </div>
-            <div class="col span-1-of-2">
+  
+            <div class="paragraph" id="paragraph" align="center">
+            	
                 <p>
                     My name is Mukesh Kumar. Front End Developer who focuses on writing clean, elegant and efficient code. I like to analyze context and behaviours in order to create the best solutions to every project.
                 </p>
@@ -72,19 +69,19 @@
                 </p>
                 <div class="resume-btn" align="center">
                     <a href="resources/mukesh_resume.pdf" target="_blank">
-                        <button class="btn-resume">RESUME</button>
+                        <button class="basic btn-resume">RESUME</button>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section-skills">
+    <section class="section-skills" id="skills-section">
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
-        <div class="skills" align="center">
-            <button class="btn btn-header">SKILLS</button>
+        <div align="center">
+            <h5 class="skills">SKILLS</h5>
         </div>
 
         <div class="progress-bar">
@@ -109,24 +106,24 @@
         </div>
     </section>
 
-    <section class="section-myworks">
+    <section class="section-myworks" id="myworks">
         <div class="my-works" align="center">
-            <button class="btn btn-header">MY WORKS</button>
+            <h5>MY WORKS</h5>
         </div>
 
         <div class="buttons" align="center">
-            <button class="navigation-btn active">ALL</button>
-            <button class="navigation-btn" onclick="activeButton(this)">HTML & CSS</button>
-            <button class="navigation-btn" onclick="activeButton(this)">RESPONSIVE</button>
-            <button class="navigation-btn" onclick="activeButton(this)">BOOTSTRAP</button>
-            <button class="navigation-btn" onclick="activeButton(this)">PROJECT</button>
+            <button class="basic navigation-btn active">ALL</button>
+            <button class="basic navigation-btn" onclick="activeButton(this)">HTML & CSS</button>
+            <button class="basic navigation-btn" onclick="activeButton(this)">RESPONSIVE</button>
+            <button class="basic navigation-btn" onclick="activeButton(this)">BOOTSTRAP</button>
+            <button class="basic navigation-btn" onclick="activeButton(this)">PROJECT</button>
         </div>
 
         <div class="websites">
             <ul class="websites-showcase clearfix">
                 <li>
                     <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/omnifood/." target="_blank"><img src="resources/img/1.png" alt="Omnifood"></a>
+                        <a href="https://mukeshk371.github.io/omnifood" target="_blank"><img src="resources/img/1.png" alt="Omnifood"></a>
                     </figure>
                 </li>
                 <li>
@@ -145,7 +142,6 @@
                     </figure>
                 </li>
             </ul>
-
             <ul class="websites-showcase clearfix">
                 <li>
                     <figure class="website-photo">
@@ -172,8 +168,8 @@
     </section>
 
     <section class="section-form" id="form">
-        <div class="my-works" align="center">
-            <button class="btn btn-header">CONTACT ME</button>
+        <div align="center">
+            <h5 class="contact-me">CONTACT ME</h5>
         </div>
         <div class="row">
             <form method="post" action="#" class="contact-form">
@@ -224,7 +220,7 @@
                         <label>&nbsp;</label>
                     </div>
                     <div class="col span-2-of-3">
-                        <button class="btn-send">SEND MESSAGE</button>
+                        <button class="basic btn-send">SEND MESSAGE</button>
                     </div>
                 </div>
             </form>
@@ -236,17 +232,17 @@
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">My Works</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#myworks">My Works</a></li>
+                    <li><a href="#form">Contact Me</a></li>
                 </ul>
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-links">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="https://www.facebook.com/mukeshk371" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/MUKESHK371" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="https://plus.google.com/+MukeshKumarmukeshk371" target="_blank"><i class="ion-social-googleplus"></i></a></li>
                     <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                 </ul>
             </div>

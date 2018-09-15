@@ -76,9 +76,7 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
-    .main-nav {
-        display: none;
-    }
+    
     h1 {
         font-size: 160%
     }
@@ -117,9 +115,62 @@
     section {
         padding: 25px 0;
     }
+
+    .main-nav li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .sticky a {display: none;}
+    .sticky a .icon {
+        float: center;
+        display: block;
+    }
+
+    #my-pic {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+   .section-skills {
+        height: 90%;
+    }
+
+    #paragraph {
+        width: 100%;
+    }
+
+    #paragraph p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .navigation-btn,
+    .basic {
+        width: 50%;
+        margin: 7px;
+    }
+
+    .buttons {
+        margin-bottom: 10px;
+    }
+
+    .websites ul li {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
     .contact-form {
         width: 100%;
     }
+
+    .contact-form .btn-send {
+        width: 50%;
+    }
+
+
     .footer-nav li,
     .social-links {
         width: 100%;

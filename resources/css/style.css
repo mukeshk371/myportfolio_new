@@ -1,9 +1,5 @@
 /*---------------------------------------------------------------*/
-
-
 /*                         BASIC SETUP                           */
-
-
 /*---------------------------------------------------------------*/
 
 * {
@@ -37,11 +33,7 @@ body {
 
 
 /*---------------------------------------------------------------*/
-
-
 /*                     REUSABLE COMPONENTS                       */
-
-
 /*---------------------------------------------------------------*/
 
 section {
@@ -80,7 +72,7 @@ h1 {
     font-size: 240%;
     word-spacing: 3px;
     letter-spacing: 1px;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px darkblue;
 }
 
 h2 {
@@ -95,7 +87,7 @@ h2 {
 .role {
     margin-top: 30px;
     font-weight: 200;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #e67e22;
 }
 
 h3 {
@@ -103,8 +95,37 @@ h3 {
     margin-bottom: 15px;
 }
 
-nav {
+h5 {
+    font-size: 150%;
+    font-weight: 300;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    color: #4a4545;
+}
+
+h5:after,
+h5:before {
     display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skills,
+.contact-me {
+    color: white;               
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -133,25 +154,28 @@ nav {
 
 /*-----------------------------PARAGRAPHS-----------------------------*/
 
-.col p {
-    margin-top: 6%;
-    font-size: 100%;
+.paragraph p {
+    width: 90%;
+    margin-top: 2%;
+    font-size: 90%;
     text-align: justify;
-    margin-right: 20px;
 }
 
 
 /*------------------------------BUTTONS----------------------------*/
 
-.btn-get-started,
-.btn-resume {
-    background-color: #1abc9c;
-    border: 2px solid #1abc9c;
-    margin-top: 8%;
+.basic {
+    background-color: transparent;
+    border: 2px solid #e67e22;
+    margin-top: 3%;
     padding: 10px 10px;
     border-radius: 35px;
     font-size: 120%;
     cursor: pointer;
+}
+
+.btn-resume {
+    color: black;
 }
 
 .btn {
@@ -164,72 +188,52 @@ nav {
 }
 
 .navigation-btn {
-    margin-top: 4%;
-    margin-bottom: 4%;
-    border-radius: 6px;
-    float: center;
-    background-color: #1abc9c;
     padding: 10px 20px;
-    color: #111111;
     font-size: 18px;
-    border: none;
-    cursor: pointer;
 }
 
 .btn-send {
-    background-color: #1abc9c;
+    background-color: #e67e22;
+    border: 2px solid #e67e22;
+    color: white;
     margin-top: 2%;
     padding: 10px 10px;
     border-radius: 50px;
-    border: 2px solid #1abc9c;
     font-size: 80%;
     cursor: pointer;
 }
 
 .active {
-    border-radius: 6px;
     padding: 10px 20px;
     color: white;
     font-size: 18px;
-    border: none;
-    background-color: #2c3e50;
+    background-color: #e67e22;
     float: center;
     cursor: pointer;
 }
 
-.navigation-btn:hover {
-    background-color: #2c3e50;
-    color: white;
-    transition-duration: 0.4s;
-    box-shadow: 10px 10px 5px grey;
-}
 
-.btn-get-started:hover,
-.btn-resume:hover,
-.btn-send:hover {
-    background-color: #2c3e50;
-    border: 2px solid #2c3e50;
+.basic:hover {
+    background-color: #e67e22;
+    border: 2px solid #e67e22;
     color: #fff;
     transition-duration: 0.4s;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 2px 2px 3px black;
 }
 
 
 /*---------------------------------------------------------------*/
-
-
 /*                              HEADER                           */
-
-
 /*---------------------------------------------------------------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 75%;
     background-attachment: fixed;
 }
+
 
 .hero-text-box {
     width: 100%;
@@ -240,10 +244,7 @@ header {
     text-align: center;
     overflow: hidden;
     background-color: #FFFFFF;
-    position: -webkit-sticky;
-    position: sticky;
     width: 100%;
-    top: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -263,17 +264,13 @@ header {
 }
 
 .main-nav li a:hover {
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #1abc9c;
+    text-shadow: 1px 1px 2px #e67e22, 0 0 25px #e67e22, 0 0 5px #e67e22;
     transition-duration: 0.4s;
 }
 
 
 /*---------------------------------------------------------------*/
-
-
 /*                            MY WORKS                           */
-
-
 /*---------------------------------------------------------------*/
 
 .section-myworks {
@@ -287,6 +284,7 @@ header {
 .websites-showcase {
     list-style: none;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .websites-showcase li {
@@ -296,18 +294,17 @@ header {
 }
 
 .website-photo {
-    width: 100%;
-    margin: 0;
+    width: 97%;
     overflow: hidden;
     background-color: #000;
-    padding: 0;
     transition: transform .2s;
     margin: auto;
+    border-radius: 11px;
 }
 
 .website-photo img {
     width: 100%;
-    height: auto;
+    height: 25%;
 }
 
 .website-photo img:hover {
@@ -319,17 +316,13 @@ header {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     border-radius: 8px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px black;
     transition-duration: 0.4s;
 }
 
 
 /*---------------------------------------------------------------*/
-
-
 /*                          PROGRESS BAR                         */
-
-
 /*---------------------------------------------------------------*/
 
 h4 {
@@ -355,11 +348,7 @@ h4 {
 
 
 /*---------------------------------------------------------------*/
-
-
 /*                             FORM                              */
-
-
 /*---------------------------------------------------------------*/
 
 .section-form {
@@ -386,11 +375,7 @@ textarea {
 
 
 /*---------------------------------------------------------------*/
-
-
 /*                            FOOTER                             */
-
-
 /*---------------------------------------------------------------*/
 
 footer {
@@ -432,7 +417,7 @@ footer {
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
-    color: #1abc9c;
+    color: #e67e22;
 }
 
 .social-links li a:link,

@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link rel="stylesheet" type="text/css" href="resources/css/progressbar.css">
     <script src="resources/js/javascript.js"></script>
+    <script src="resources/js/my_works.js"></script>
+    <script src="resources/js/data.js"></script>
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
@@ -22,7 +24,7 @@
     
 </head>
 
-<body>
+<body onload="loadProject('ALL')">
     <header>
         <div class="hero-text-box">
             <h2>Hello I'm</h2>
@@ -37,9 +39,9 @@
     </header>
 
     <nav>
-        <div class="sticky" id="top-nav">
-            <ul class="main-nav">
-            	<li><a href="javascript:void(0);" style="font-size:15px;" align="center" class="icon" onclick="myFunction()">&#9776;</a></li>
+        <div class="sticky-nav">
+            <ul class="main-nav" id="top-nav">
+            	<li><a href="javascript:void(0);" style="font-size:20px;" align="center" class="icon" onclick="singleNavButton()"><i class="ion-navicon"></i></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#skills-section">Skills</a></li>
@@ -112,57 +114,16 @@
         </div>
 
         <div class="buttons" align="center">
-            <button class="basic navigation-btn active">ALL</button>
-            <button class="basic navigation-btn" onclick="activeButton(this)">HTML & CSS</button>
-            <button class="basic navigation-btn" onclick="activeButton(this)">RESPONSIVE</button>
-            <button class="basic navigation-btn" onclick="activeButton(this)">BOOTSTRAP</button>
-            <button class="basic navigation-btn" onclick="activeButton(this)">PROJECT</button>
+            <button class="basic navigation-btn active" onclick="loadProject('ALL')">ALL</button>
+            <button class="basic navigation-btn" onclick="loadProject('HTML')">HTML & CSS</button>
+            <button class="basic navigation-btn" onclick="loadProject('RESPONSIVE')">RESPONSIVE</button>
+            <button class="basic navigation-btn" onclick="loadProject('BOOTSTRAP')">BOOTSTRAP</button>
+
         </div>
 
         <div class="websites">
-            <ul class="websites-showcase clearfix">
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/omnifood" target="_blank"><img src="resources/img/1.png" alt="Omnifood"></a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/sf_arts/" target="_blank"><img src="resources/img/3.png" alt="SF Arts"></a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/upsc_bootstrap/" target="_blank"><img src="resources/img/2.png" alt="UPSC"></a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/Essay/" target="_blank"><img src="resources/img/4.png" alt="Essay"></a>
-                    </figure>
-                </li>
-            </ul>
-            <ul class="websites-showcase clearfix">
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/r.k.s.school/" target="_blank"><img src="resources/img/7.png" alt="School"></a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/paytm/" target="_blank"><img src="resources/img/5.png" alt="Paytm"></a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/flipkart/" target="_blank"><img src="resources/img/6.png" alt="Flipkart"></a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="website-photo">
-                        <a href="https://mukeshk371.github.io/facebook/" target="_blank"><img src="resources/img/8.png" alt="Flipkart"></a>
-                    </figure>
-                </li>
+            <ul class="websites-showcase clearfix" id="websites-list">
+                
             </ul>
         </div>
     </section>

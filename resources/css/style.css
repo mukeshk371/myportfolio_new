@@ -178,6 +178,10 @@ h5:before {
     color: black;
 }
 
+.btn-get-started {
+    color: #ecf0f1;
+}
+
 .btn {
     float: center;
     border: 2px solid #333;
@@ -185,6 +189,10 @@ h5:before {
     border-radius: 30px;
     font-size: 30px;
     margin-bottom: 4%;
+}
+
+.buttons {
+    margin-bottom: 20px;
 }
 
 .navigation-btn {
@@ -268,6 +276,10 @@ header {
     transition-duration: 0.4s;
 }
 
+.icon {
+    display: none;
+}
+
 
 /*---------------------------------------------------------------*/
 /*                            MY WORKS                           */
@@ -295,10 +307,11 @@ header {
 
 .website-photo {
     width: 97%;
+    border: 2px solid black;
     overflow: hidden;
     background-color: #000;
     transition: transform .2s;
-    margin: auto;
+    margin-bottom: 10px;
     border-radius: 11px;
 }
 
@@ -316,7 +329,7 @@ header {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     border-radius: 8px;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 2px 3px 5px black;
     transition-duration: 0.4s;
 }
 

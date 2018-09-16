@@ -8,6 +8,9 @@
     .row {
         padding: 0 2%;
     }
+    .icon {
+        display: none;
+    }
 }
 
 
@@ -122,11 +125,15 @@
         margin: 10px;
     }
 
-    .sticky a {display: none;}
-    .sticky a .icon {
-        float: center;
+    .icon {
+        position: relative;
         display: block;
     }
+    
+    .responsive li {
+        display: none;
+    }
+
 
     #my-pic {
         margin: 0;

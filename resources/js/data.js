@@ -8,24 +8,24 @@ var workList = [
 	},
 	{
 		"type" : ["HTML","CSS","BOOTSTRAP","RESPONSIVE"],
-		"githubLink" :"https://github.com/mukeshk371/sf_arts",
-		"link" :"https://mukeshk371.github.io/sf_arts",
-		"pic" : "resources/img/3.png",
-		"description" : "SF Arts"
-	},
-	{
-		"type" : ["HTML","CSS","BOOTSTRAP","RESPONSIVE"],
 		"githubLink" :"https://github.com/mukeshk371/upsc_bootstrap",
 		"link" :"https://mukeshk371.github.io/upsc_bootstrap",
 		"pic" : "resources/img/2.png",
 		"description" : "UPSC"
 	},
 	{
-		"type" : ["HTML","CSS"],
-		"githubLink" :"https://github.com/mukeshk371/Essay",
-		"link" :"https://mukeshk371.github.io/Essay/",
-		"pic" : "resources/img/4.png",
-		"description" : "Essay"
+		"type" : ["HTML","CSS","BOOTSTRAP","RESPONSIVE"],
+		"githubLink" :"https://github.com/mukeshk371/sf_arts",
+		"link" :"https://mukeshk371.github.io/sf_arts",
+		"pic" : "resources/img/3.png",
+		"description" : "SF Arts"
+	},
+	{
+		"type" : ["HTML","BOOTSTRAP"],
+		"githubLink" :"https://github.com/mukeshk371/shop-at-anna",
+		"link" :"https://mukeshk371.github.io/shop-at-anna",
+		"pic" : "resources/img/8.png",
+		"description" : "Shop at Anna"
 	},
 	{
 		"type" : ["HTML","CSS","RESPONSIVE"],
@@ -33,6 +33,13 @@ var workList = [
 		"link" :"https://mukeshk371.github.io/r.k.s.school",
 		"pic" : "resources/img/7.png",
 		"description" : "School"
+	},
+	{
+		"type" : ["HTML","CSS"],
+		"githubLink" :"https://github.com/mukeshk371/Essay",
+		"link" :"https://mukeshk371.github.io/Essay/",
+		"pic" : "resources/img/4.png",
+		"description" : "Essay"
 	},
 	{
 		"type" : ["HTML","CSS"],
@@ -47,12 +54,5 @@ var workList = [
 		"link" :"https://mukeshk371.github.io/flipkart/",
 		"pic" : "resources/img/6.png",
 		"description" : "Flipkart"
-	},
-	{
-		"type" : ["HTML","CSS"],
-		"githubLink" :"https://github.com/mukeshk371/facebook",
-		"link" :"https://mukeshk371.github.io/facebook",
-		"pic" : "resources/img/8.png",
-		"description" : "Facebook"
 	}
 ]

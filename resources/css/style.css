@@ -286,7 +286,11 @@ header {
 /*---------------------------------------------------------------*/
 
 .section-myworks {
-    background-color: #fff;
+    background-color: #FAFAFA;
+}
+
+.my-works h5 {
+    margin-bottom: 0;
 }
 
 .websites {
@@ -301,8 +305,16 @@ header {
 }
 
 .websites-showcase h3 {
-    margin: 10px;
+    margin: 2%;
+    font-weight: normal;
+    color: #e67e22;
 }
+
+.websites-showcase {
+    float: center;
+    margin-right: 0;
+}
+
 
 .websites-showcase li {
     background-color: #f4f4f4;
@@ -322,27 +334,31 @@ header {
     background-color: #000;
     transition: transform .2s;
     margin-bottom: 15px;
-    border-radius: 11px;
+    border-radius: 10px;
 }
 
 .website-photo img {
-    width: 100%;
     height: 25%;
+    
 }
 
 .webpage-btn {
+    background-color: transparent;
     border-radius: 35px;
-    margin: 10px;
+    margin: 4%;
     cursor: pointer;
     padding: 5px 10px;
     font-size: 80%;
-    margin-bottom: 10px;
     margin-top: 0;
     border: 1px solid #e67e22;
 }
 
 .webpage-btn:hover {
+    background-color: #e67e22;
     border: 1px solid #e67e22;
+    color: #fff;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 3px black;
 }
 
 .websites-showcase li:hover {
@@ -490,9 +506,3 @@ footer p {
     font-size: 90%;
     margin-top: 20px;
 }
-
-
-/*---------------------------------------------------------------*/
-/*                         WEB PAGEs SETUP                       */
-/*---------------------------------------------------------------*/
-

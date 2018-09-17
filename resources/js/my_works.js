@@ -37,7 +37,7 @@ function createLi(information) {
 	figure.classList.add("website-photo");
 	figure.appendChild(image);
 
-	var heading = document.createElement("H4");
+	var heading = document.createElement("H3");
 	heading.innerHTML = information.description;
 
 	var list = document.createElement("LI");

@@ -286,7 +286,7 @@ header {
 /*---------------------------------------------------------------*/
 
 .section-myworks {
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 .websites {
@@ -300,8 +300,12 @@ header {
     margin-bottom: 0;
 }
 
+.websites-showcase h3 {
+    margin: 10px;
+}
+
 .websites-showcase li {
-    background-color: #fff;
+    background-color: #f4f4f4;
     display: block;
     float: left;
     width: 24%;

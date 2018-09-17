@@ -7,12 +7,12 @@ function activeButton(button) {
 }
 
 function singleNavButton() {
-            var x = document.getElementById("top-nav");
-            if (x.className === "main-nav") {
-                x.className += "responsive";
-            } else {
-                x.className = "main-nav";
-            }
-        }
+    var x = document.getElementById("top-nav");
+    if (x.className === "main-nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "main-nav";
+    }
+}
 
 

@@ -81,7 +81,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     letter-spacing: 1px;
-    padding: 70px;
+    padding: 30px;
 }
 
 .role {
@@ -192,7 +192,7 @@ h5:before {
 }
 
 .buttons {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .navigation-btn {
@@ -238,7 +238,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 75%;
+    height: 60%;
     background-attachment: fixed;
 }
 
@@ -295,23 +295,29 @@ header {
 
 .websites-showcase {
     list-style: none;
-    width: 100%;
-    margin-bottom: 5px;
+    float: center;
+    width: 99%;
+    margin-bottom: 0;
 }
 
 .websites-showcase li {
+    background-color: #fff;
     display: block;
     float: left;
-    width: 25%;
+    width: 24%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
 }
 
 .website-photo {
-    width: 97%;
-    border: 2px solid black;
+    width: 95%;
     overflow: hidden;
     background-color: #000;
     transition: transform .2s;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 11px;
 }
 
@@ -320,14 +326,25 @@ header {
     height: 25%;
 }
 
-.website-photo img:hover {
-    transform: scale(1.03);
+.webpage-btn {
+    border-radius: 35px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 80%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    border: 1px solid #e67e22;
 }
 
-.website-photo:hover {
+.webpage-btn:hover {
+    border: 1px solid #e67e22;
+}
+
+.websites-showcase li:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    transform: scale(1.2);
     border-radius: 8px;
     box-shadow: 2px 3px 5px black;
     transition-duration: 0.4s;
@@ -339,7 +356,7 @@ header {
 /*---------------------------------------------------------------*/
 
 h4 {
-    font-size: 150%;
+    font-size: 110%;
     width: 93%;
     margin: auto;
     margin-bottom: 10px;
@@ -351,12 +368,14 @@ h4 {
 
 .progress-bar {
     background-attachment: local;
+    margin-top: 0;
 }
 
 .bar-wrap span {
     color: white;
     vertical-align: middle;
     line-height: normal;
+    font-size: 70%;
 }
 
 
@@ -467,3 +486,9 @@ footer p {
     font-size: 90%;
     margin-top: 20px;
 }
+
+
+/*---------------------------------------------------------------*/
+/*                         WEB PAGEs SETUP                       */
+/*---------------------------------------------------------------*/
+

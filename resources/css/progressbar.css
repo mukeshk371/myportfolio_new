@@ -65,7 +65,7 @@
     @include prefix(animation, bar-fill 1s);
     background-color: rgba(0, 155, 202, 1);
     display: block;
-    height: 25px;
+    height: 18px;
     width: 0px;
     border-radius: 10px;
 }

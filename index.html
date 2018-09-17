@@ -18,10 +18,10 @@
     <script src="resources/js/my_works.js"></script>
     <script src="resources/js/data.js"></script>
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
-    
+
 </head>
 
 <body onload="loadProject('ALL')">
@@ -33,15 +33,16 @@
         </div>
 
         <div class="row" align="center">
-        	<a href="#top-nav"><button class="basic btn-get-started">Get Started</button></a>
+            <a href="#top-nav">
+                <button class="basic btn-get-started">Get Started</button>
+            </a>
         </div>
-
     </header>
 
     <nav>
         <div class="sticky-nav">
             <ul class="main-nav" id="top-nav">
-            	<li><a href="javascript:void(0);" style="font-size:20px;" align="center" class="icon" onclick="singleNavButton()"><i class="ion-navicon"></i></a></li>
+                <li><a href="javascript:void(0);" style="font-size:20px;" align="center" class="icon" onclick="singleNavButton()"><i class="ion-navicon"></i></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#skills-section">Skills</a></li>
@@ -55,25 +56,21 @@
         <div class="about" align="center">
             <h5>ABOUT ME</h5>
         </div>
-  
-            <div class="paragraph" id="paragraph" align="center">
-            	
-                <p>
-                    My name is Mukesh Kumar. Front End Developer who focuses on writing clean, elegant and efficient code. I like to analyze context and behaviours in order to create the best solutions to every project.
-                </p>
 
-                <p>
-                    I enjoy building everything from small business sites to rich interactive websites. I am also working as a freelancer. If you are seeking web presence for your business or you are an employer looking to hire, you can get in touch with me.
-                </p>
-
-                <p>
-                    "User Interface Designer with passion for designing and functional user experiences."
-                </p>
-                <div class="resume-btn" align="center">
-                    <a href="resources/mukesh_resume.pdf" target="_blank">
-                        <button class="basic btn-resume">RESUME</button>
-                    </a>
-                </div>
+        <div class="paragraph" id="paragraph" align="center">
+            <p>
+                My name is Mukesh Kumar. Front End Developer who focuses on writing clean, elegant and efficient code. I like to analyze context and behaviours in order to create the best solutions to every project.
+            </p>
+            <p>
+                I enjoy building everything from small business sites to rich interactive websites. I am also working as a freelancer. If you are seeking web presence for your business or you are an employer looking to hire, you can get in touch with me.
+            </p>
+            <p>
+                "User Interface Designer with passion for designing and functional user experiences."
+            </p>
+            <div class="resume-btn" align="center">
+                <a href="resources/mukesh_resume.pdf" target="_blank">
+                    <button class="basic btn-resume">RESUME</button>
+                </a>
             </div>
         </div>
     </section>
@@ -87,23 +84,23 @@
         </div>
 
         <div class="progress-bar">
-            <ul class="bar-graph"> 
-              <li>
-                <h4>HTML</h4>
-                <div class="bar-wrap"><span class="bar-fill" style="width: 80%;">80%</span></div>
-              </li> 
-              <li>
-                <h4>CSS</h4>
-                <div class="bar-wrap"><span class="bar-fill" style="width: 80%;">80%</span></div>
-              </li> 
-              <li>
-                <h4>JavaScript</h4>
-                <div class="bar-wrap"><span class="bar-fill"  style="width: 60%;">60%</span></div>
-              </li> 
-              <li>
-                <h4>Bootstrap</h4>
-                <div class="bar-wrap"><span class="bar-fill" style="width: 60%;">60%</span></div>
-              </li> 
+            <ul class="bar-graph">
+                <li>
+                    <h4>HTML</h4>
+                    <div class="bar-wrap"><span class="bar-fill" style="width: 80%;">80%</span></div>
+                </li>
+                <li>
+                    <h4>CSS</h4>
+                    <div class="bar-wrap"><span class="bar-fill" style="width: 80%;">80%</span></div>
+                </li>
+                <li>
+                    <h4>JavaScript</h4>
+                    <div class="bar-wrap"><span class="bar-fill" style="width: 60%;">60%</span></div>
+                </li>
+                <li>
+                    <h4>Bootstrap</h4>
+                    <div class="bar-wrap"><span class="bar-fill" style="width: 60%;">60%</span></div>
+                </li>
             </ul>
         </div>
     </section>
@@ -118,14 +115,58 @@
             <button class="basic navigation-btn" onclick="loadProject('HTML')">HTML & CSS</button>
             <button class="basic navigation-btn" onclick="loadProject('RESPONSIVE')">RESPONSIVE</button>
             <button class="basic navigation-btn" onclick="loadProject('BOOTSTRAP')">BOOTSTRAP</button>
-
         </div>
 
-        <div class="websites">
+        <div class="websites" align="center">
             <ul class="websites-showcase clearfix" id="websites-list">
-                
+
             </ul>
         </div>
+
+        <!---<div class="websites" align="center">
+            <ul class="websites-showcase" id="websites-list">
+                <li class="webpage-box">
+                    <h4>OMNIFOOD</h4>
+                    <figure class="webpage-image">
+                        <img src="resources/img/1.png">
+                    </figure>
+                    <a href="https://github.com/mukeshk371/omnifood">
+                        <button class="basic webpage-btn">GitHub</button>
+                    </a>
+                    <a href="https://mukeshk371.github.io/omnifood">
+                        <button class="basic webpage-btn">Website</button>
+                    </a>
+                </li>
+
+                <li class="webpage-box">
+                    <h4>SF ARTS</h4>
+                    <figure class="webpage-image">
+                        <img src="resources/img/3.png">
+                    </figure>
+                    <button class="basic webpage-btn">GitHub</button>
+                    <button class="basic webpage-btn">Website</button>
+                </li>
+
+                <li class="webpage-box">
+                    <h4>UPSC</h4>
+                    <figure class="webpage-image">
+                        <img src="resources/img/2.png">
+                    </figure>
+                    <button class="basic webpage-btn">GitHub</button>
+                    <button class="basic webpage-btn">Website</button>
+                </li>
+
+                <li class="webpage-box">
+                    <h4>SCHOOL</h4>
+                    <figure class="webpage-image">
+                        <img src="resources/img/7.png">
+                    </figure>
+                    <button class="basic webpage-btn">GitHub</button>
+                    <button class="basic webpage-btn">Website</button>
+                </li>
+            </ul>
+        </div>
+    -->
     </section>
 
     <section class="section-form" id="form">

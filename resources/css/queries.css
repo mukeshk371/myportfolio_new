@@ -23,39 +23,12 @@
     section {
         padding: 60px 0;
     }
-    .long-copy {
-        width: 80%;
-        margin-left: 10%;
-    }
-    .steps-box {
-        margin-top: 10px;
-    }
-    .steps-box:last-child {
-        margin-top: 10px;
-    }
-    .works-step {
-        margin-bottom: 40px;
-    }
-    .works-step:last-of-type {
-        margin-bottom: 80px;
-    }
-    .app-screen {
-        width: 50%;
-    }
+
     .icon-small {
         width: 17px;
         margin-right: 5px;
     }
-    .city-feature: {
-        font-size: 80%;
-    }
-    .plan-box {
-        width: 100%;
-        margin-left: 0%;
-    }
-    .plan-price {
-        font-size: 250%;
-    }
+    
     .contact-form {
         width: 80%;
     }
@@ -64,7 +37,7 @@
 
 /* Small phones to small tablets: 481px to 767px */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1006px) {
     body {
         font-size: 16px;
     }
@@ -87,6 +60,7 @@
         font-size: 140%
     }
     .main-nav li {display: none;}
+
     .icon {
         float: center;
         display: inline-block;
@@ -100,6 +74,15 @@
         text-align: center;
         -webkit-transition: .3s;
         transition: .3s;
+    }
+
+    .websites-showcase li {
+        width: 32%;
+    }
+
+    .social-icons {
+        width: 100%;
+        float: left;
     }
 }
 
@@ -152,9 +135,6 @@
         margin-bottom: 20px;
     }
 
-   .section-skills {
-        height: 90%;
-    }
 
     #paragraph {
         width: 100%;
@@ -179,6 +159,10 @@
         width: 100%;
         margin: 0;
         margin-bottom: 10px;
+    }
+
+    .website-photo img {
+        width: 100%;
     }
 
     .contact-form {

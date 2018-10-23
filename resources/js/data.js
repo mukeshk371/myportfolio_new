@@ -28,6 +28,13 @@ var workList = [
 		"description" : "Shop at Anna"
 	},
 	{
+		"type" : ["HTML","CSS","JQUERY"],
+		"githubLink" :"https://github.com/mukeshk371/calculator",
+		"link" :"https://mukeshk371.github.io/calculator/",
+		"pic" : "resources/img/9.jpg",
+		"description" : "Calculator"
+	},
+	{
 		"type" : ["HTML","CSS","RESPONSIVE"],
 		"githubLink" :"https://github.com/mukeshk371/r.k.s.school",
 		"link" :"https://mukeshk371.github.io/r.k.s.school",

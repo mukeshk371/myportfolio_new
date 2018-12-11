@@ -485,6 +485,14 @@ footer {
     transition: color 0.2s;
 }
 
+.ion-social-github:hover {
+    color: white;
+}
+
+.ion-social-linkedin:hover {
+    color: #007bb5;
+}
+
 .ion-social-facebook:hover {
     color: #3b5998;
 }
